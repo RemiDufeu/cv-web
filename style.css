@@ -5,6 +5,7 @@ body {
     font-size: 18px;
     line-height: 1.4;
     background-color: #EEE;
+    overflow-x: hidden;
 }
 .tab-content{
     display: none;
@@ -150,7 +151,9 @@ a {
 }
 footer {
     background-color: rgba(254, 191, 16, 0.438);
-    height: 80px;
+    padding:  40px 0 40px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 450;
 }
 .fixed {
     position: fixed;
@@ -167,7 +170,7 @@ footer {
     position: absolute;
     top: 8px;
     z-index: 4;
-    box-shadow: 0 17px 30px -10px;
+    box-shadow: 0px 20px 60px -25px;
 }
 .IDdiv {
     display: outside;
@@ -202,3 +205,45 @@ ul .sous-titre {
     top: 8px;
     margin-right: 9px;
 }
+.cvparcour {
+    padding: 30px;
+    width: 100%;
+}
+.titlecomponent {
+    font-weight: 600;
+    color: #FEBE10;
+    font-size: 2em;
+    padding-left: 0.5em;
+}
+hr {
+    height: 3px;
+    margin: 0.5em 0;
+    padding: 0;
+    color: #FEBE10;
+    background-color: #FEBE10;
+    border: 0;
+  }
+  .formationcontent {
+      padding: 20px;
+      padding-bottom: 0;
+  }
+  .intitule {
+      font-size: 1.4em;
+      padding-bottom: 10px;
+      color: rgb(233, 184, 50);
+  }
+  .description, .annee{
+      color : rgb(116, 116, 116);
+      font-size : 1.2em;
+      padding-left : 10px
+  }
+  .annee {
+      color: rgb(77, 77, 77);
+      font-weight: 600;
+  }
+
+  .animate__slideInDown {
+    animation: animate__slideInDown; 
+    animation-duration: 2s;
+    overflow: hidden;
+  }
