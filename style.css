@@ -117,8 +117,33 @@ a {
 }
 .sidebar {
     background-color:rgba(254, 191, 16, 0.11);
-    width: 300px;
+    width: 260px;
     flex: 0 0 auto;
+    padding: 20px;
+}
+.sidebar ul {
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 680;
+    color: rgb(65, 65, 65);
+    padding-left: 8px;
+}
+.sidebar a {
+    color: rgb(245, 184, 30);
+}
+.sidebar b {
+    font-weight: 640;
+}
+.sidebar li {
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.sidebar progress {
+    float: right;
 }
 #cv {
     background-color:#F5F6F7 ;
@@ -147,4 +172,33 @@ footer {
 .IDdiv {
     display: outside;
     
+}
+.progress {
+    width: 150px;
+    height: 18px;
+    border: grey solid 1px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 5%;
+}
+.progression {
+    background-color: rgb(231, 182, 47) ;
+    margin: 1px;
+    height: 90%;
+}
+ul .sous-titre {
+    font-weight: 500;
+}
+.p78 {
+    width: 78%;
+}
+.p53 {
+    width: 53%;
+}
+.sidebar img {
+    position: relative;
+    width: 25px;
+    height: auto;
+    top: 8px;
+    margin-right: 9px;
 }
