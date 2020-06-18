@@ -231,7 +231,7 @@ hr {
 .intitule {
     font-size: 1.4em;
     padding-bottom: 10px;
-    color: rgb(233, 184, 50);
+    
 }
 .description, .annee{
     color : rgb(116, 116, 116);
@@ -276,6 +276,13 @@ overflow: hidden;
     text-align: right;
     padding-top: 40px;
 }
+.lienTexte, .lienProjet a{
+    color: rgb(233, 184, 50);;
+}
+.lienTexte:hover, .lienProjet a:hover {
+    color: rgb(221, 207, 167);
+}
+
 
 @media (max-width: 1050px) {
     #cv {
