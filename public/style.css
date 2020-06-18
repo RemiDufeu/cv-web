@@ -280,7 +280,24 @@ overflow: hidden;
     color: rgb(233, 184, 50);;
 }
 .lienTexte:hover, .lienProjet a:hover {
-    color: rgb(221, 207, 167);
+    color:  rgba(243, 190, 57, 0.699);
+}
+.logoProjets {
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.logoProjets li {
+    display: inline-block;
+}
+.logoProjets svg{
+    color: rgba(121, 121, 121, 0.658);
+}
+.logoProjets svg:hover{
+    color: rgba(243, 190, 57, 0.699);
+}
+.formationcontent ul{
+    text-align: start;
 }
 
 
