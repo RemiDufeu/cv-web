@@ -292,6 +292,7 @@ overflow: hidden;
 }
 .logoProjets svg{
     color: rgba(121, 121, 121, 0.658);
+    margin-right: 1em;
 }
 .logoProjets svg:hover{
     color: rgba(243, 190, 57, 0.699);
